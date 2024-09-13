@@ -1,0 +1,21 @@
+Laos, 10 September 2024
+NGUEMDJOM Tchangang
+Kevin Darren
+Hanoi-Vietnam
+tchangang25@gmail.com
+
+Subject: Application for the internship on clock synchronization in WBAN sensor networks
+
+Dear Sir/Madam,
+
+I am currently a second-year Master's student in Intelligent Systems and Multimedia, pursuing a dual degree between the National University of Vietnam and the University of La Rochelle in France. I would like to submit my application for the internship you are offering on the study of clock synchronization in Wireless Body Area Networks (WBAN) sensor networks.
+
+My academic background and experiences have allowed me to develop expertise in IoT systems, sensor management, and communication gateway development. During my studies, I have had the opportunity to participate in several projects, including at the Research Institute for Development (IRD) in Laos, where I am currently doing an internship. This internship focuses on the integration and configuration of sensors to measure temperature, air and soil humidity, as well as CO2 emissions. I have also worked on the creation of Raspberry Pi gateways with LoRa technology and the adaptation of firmware in the Arduino environment using C/C++.
+
+I am particularly interested in your project, as it perfectly aligns with my current work on real-time data transmission and the management of possible disturbances in complex environments. Indeed, in Laos, I am already working on similar issues related to long-distance communication between sensors and implementing low-cost solutions for environmental data collection. This internship would represent a unique opportunity for me to apply my skills in a new setting and further develop my expertise on clock synchronization, which is particularly important in wireless sensor networks. It would also allow me to complete my master's program and pursue a Ph.D. opportunity.
+
+I am confident that my skills in C/C++, sensor networks, and LoRa and WBAN technologies will be an asset to your team. I look forward to discussing my application and contributing to the success of your projects.
+
+Yours sincerely,
+
+NGUEMDJOM Kevin

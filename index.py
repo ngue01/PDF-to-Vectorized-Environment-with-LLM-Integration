@@ -8,7 +8,7 @@ from langchain.embeddings.sentence_transformer import SentenceTransformerEmbeddi
 from langchain.vectorstores import Chroma
 from langchain.chains import RetrievalQA
 from langchain.llms import LlamaCpp
-persist_directory = "./data"
+persist_directory = "D:\implementation_longchain\data"
 sbert_embedding = "all-MiniLM-L6-v2"# slower "all-mpnet-base-v2"
 
 """to store pdf to vectorized environment """
@@ -45,10 +45,10 @@ def GetVectorDB(client, collection,pdf):
 
 client = chromadb.PersistentClient(path=persist_directory)
 
-retriever = GetVectorDB(client, "acu","./data/acu.pdf").as_retriever(search_kwargs={"k": 3})
+retriever = GetVectorDB(client, "acu","data\SENE_2023_archivage.pdf").as_retriever(search_kwargs={"k": 3})
 
 llm =LlamaCpp(#https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML
-        model_path="models/llama2_ggml/llama-2-7b-chat.ggmlv3.q4_0.bin",
+        model_path="model\llama-2-7b-chat.ggmlv3.q4_0.bin",
         #verbose=True,
         max_tokens=128,
         n_gpu_layers=12,
